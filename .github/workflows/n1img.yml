@@ -70,7 +70,7 @@ jobs:
       run: |
         cd /opt/dl
         
-        wget  https://github.com/mingxiaoyu/N1Openwrt/releases/download/20210308/openwrt-sdk-armvirt-64_gcc-8.4.0_musl.Linux-x86_64.tar.xz
+        wget  https://pipelines.actions.githubusercontent.com/TWwrWdVDOH2cSillLfj2gV4OHZBnFQfeJMIeuQY5QhOrrW110w/_apis/pipelines/1/runs/3/signedartifactscontent?artifactName=OpenWrt_firmware_202103091316&urlExpires=2021-03-09T07%3A44%3A29.4266552Z&urlSigningMethod=HMACV1&urlSignature=35IbAKY2omBN9DuakuIH7HgaO2YCXlYEbOZl1BAlCcY%3D
         wget ${FLIPPY_URL}
         
     - name: Check Files

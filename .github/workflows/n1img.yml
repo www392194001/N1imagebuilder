@@ -70,7 +70,7 @@ jobs:
       run: |
         cd /opt/dl
         
-        wget  https://github.com/mingxiaoyu/N1Openwrt/releases/download/$version/openwrt-armvirt-64-default-rootfs.tar.gz
+        wget  https://github.com/mingxiaoyu/N1Openwrt/releases/download/20210308/openwrt-sdk-armvirt-64_gcc-8.4.0_musl.Linux-x86_64.tar.xz
         wget ${FLIPPY_URL}
         
     - name: Check Files
